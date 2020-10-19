@@ -1,0 +1,73 @@
+WHAT IS CROSS-PLATFORM?
+A platform is an environment where programming code is executed. There are 2 major types of platforms:
+
+• Hardware:  It depends on hardware architecture features, CPU, GPU, etc.
+• Software:  It depends on the OS, browser or execution runtimes such as Java or .NET.
+
+A cross-platform code is an executable code that runs on different platforms without significant changes.
+
+SOFTWARE PLATFORMS
+Let’s combine software platforms into groups:
+
+Desktop: Windows, Unix, Mac OS
+Browser: Chrome, Firefox, Safari, Opera, IE
+Mobile: Android, iOS, Windows Phone
+Game Console: PlayStation, Xbox, Nintendo
+Server: Unix, Windows Server
+Others: Smart TV, SmartWatch, cameras etc.
+MOST POPULAR CROSS-PLATFORM LANGUAGES
+Java
+Both simple and powerful, Java has become the most popular language according to TIOBE Index 2015. It has a large community as well as a wide choice of different frameworks, libraries, and tools that are mostly open-sourced. The two main execution environments it includes are Java Virtual Machine (UNIX, Windows and Mac OS) and Dalvik (Android).
+
+Cross-platform Languages - JavaJava is a great choice for enterprise server-side solutions. It is easy to develop, maintain and scale. Moreover, Java gives you a great way to build Rich Client Applications for desktops (Swing) and Android devices. But it has some drawbacks such as a high level of resource consumption. Due to this reason, it could become very difficult to write code for complex computations with good performance. When development of games or apps for video processing is in question, you need to implement or find modules designed with C++ and integrate them into your Java project.
+
+Using tools like RoboVM, you can write Java code that will be transformed into Objective-C code and work on iOS.
+
+Overall, Java is everywhere, from different kinds of embedded and mobile devices to robots. So, if you want to make a smart TV, navigator, camera, ATM – Java is a good option for you.
+
+Even if your browser app requires extra security or features not supported by JavaScript, you can create an Applet – a browser plugin using Java. But there are a lot of limitations. You won’t receive best possible UX because of browser prompts and Applet loading time; so think twice whether you really need this.
+
+C++
+Cross-platform Languages - C++C++ gives the best performance for your apps on any platform. It provides direct access to RAM, CPU, GPU and controllers. It is also a base language of complex computations for Game Engines, Video and Image Processing, Big Data Analyses and Processing, etc.
+
+C++ development isn’t as simple as with C# or Java. This is because you cannot concentrate on the business model only, you also need to keep in mind the use and management of allocated resources. So, extra complexity and responsibilities are the main reasons why C++ is not the leading language nowadays. In general, it is used for the performance of critical tasks or low-level hardware programming.
+
+JavaScript
+JavaScript is one of the fastest growing languages. It started as a simple script language to add dynamic behaviour to web pages and now it is a powerful tool for building complex client applications (AngularJS, Durandal, jQuery). In certain cases, it gives practically the same UX as if you use a regular Desktop app.
+
+Nowadays, JavaScript is passing the borders of a browser. NodeJS is a platform based on Chrome JavaScript runtime. It allows building server and desktop applications that work on UNIX, Windows, and Mac OS.
+
+Cross-platform Languages - JSThere are JavaScript frameworks for developing mobile applications as well (PhoneGap, Sencha). You receive an application that behaves like a browser app but is installed on a device and has an access to the device capabilities like camera, storage, push notifications, etc. This kind of apps is called hybrid apps. Unfortunately, hybrid apps do not provide the same UX as native apps yet.
+
+JavaScript is fast and powerful. New features are always added to its specification. But it has 2 significant weaknesses:
+
+• encapsulation is achieved via closure
+• inheritance is object-based but not class-based like in other languages.
+
+But in spite of these weaknesses, many great frameworks and tools were built for JavaScript. They use the flexibility of JavaScript and eliminate all its cons.
+
+If using JavaScript Frameworks is not good enough to provide modularity, inheritance, and encapsulation in big and complex applications, you can use TypeScript which is a superset of JavaScript. With TypeScript, you write code with classes, inheritance, encapsulation, generics, and static type checking, like in other languages. And, in the end, this code is compiled to JavaScript.
+
+C#
+C# works in the .NET (Windows) and Mono (UNIX, Mac OS, Android) environments. It doesn’t use Virtual Machine like Java. Cross-platform execution is allowed by compiling C# into Intermediate Language, which is compiled during app runtime into the native code of the execution platform. This allows you to send commands directly to the CPU.
+
+C# is the main competitor of Java. Both languages are very similar, but their frameworks could be very different.
+
+Cross-platform Languages - C#.NET has a lot of nice UI Frameworks (WPF, WinJS) to make a powerful Desktop app for Windows. For UNIX and Mac OS, you can make UI apps using Mono, but you don’t have WPF and WinJS there.
+
+You could run .NET web apps only on Windows Hosting in the past. Windows Hosting is more expensive than the UNIX one. It was a big Java advantage to run apps on any hosting. Microsoft is releasing ASP.NET vNext this year and it is the latest version of their web framework. One of its major features is execution on UNIX servers. Development of web .NET apps is also cross-platform now because Microsoft developed IDE for Linux and Mac OS.
+
+Xamarin Framework allows you to build Android, iOS, and Windows Phone apps. You receive native apps with a very fast development cycle because a major chunk of your code is common or reusable. You can use portable .NET libs, device OS API and different Xamarin components. Both Xamarin community and demand are growing very fast. You can build any kind of app: scheduler, text or photo editor, game, audio and video communicator, etc.
+
+Unity is a cross-platform game engine. It supports iOS, Android, Windows Phone, BlackBerry, Windows, Mac OS, Linux, PS, Xbox, Nintendo and others. It has a web player that works in all major browsers. You can also use Unity for different kinds of 3D modelling software. It is simple and powerful enough, but if you need photorealistic graphics and your game is oriented on PC or Game Consoles, it would be a better option to choose Unreal Engine or CryENGINE.
+
+Silverlight (supported by Microsoft till 2021) is a plugin for desktop browsers, similar to Adobe Flash Flayer. It gives good performance even for games. You can implement some extra capabilities that you can’t make with. If your WPF app is simple enough, you can easily convert it to Silverlight app and launch it in a browser. Like Java, Applets Silverlight doesn`t make the best UX. You receive browser prompts and extra plugin loading time.
+
+With .NET Micro Framework you can build embedded devices, and to do this one only needs basic .NET knowledge.
+
+Universal Windows Platform allows making the single app for a different device with Windows 10: Desktop, Mobile, Xbox, HoloLens, Surface Hub and others. All that is needed to be done is to specify different UX for each device, but software platform features are kept the same.
+
+CONCLUSION
+This article is not a complete guide on how to choose a proper cross-platform solution, but it gives enriching insights by providing a general overview while keeping the software world in focus.
+
+There is a large variety of different platforms. The more platforms you support, the more users you have. But it is hard to find the definite leader of cross-platform languages because technologies develop very fast. A unique feature of one language, framework, platform or technology could be available for other rivals in a few months. Everything valuable becomes a standard soon
