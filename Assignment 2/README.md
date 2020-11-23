@@ -25,4 +25,4 @@ and their inverses for decryption.
 
 ## Screenshots
 
-![1](screenshots/1.jpg?raw=true) ![2](screenshots/2.jpg?raw=true) ![3](screenshots/3.jpg?raw=true)
+<img src="screenshots/1.jpg" width="250"/> <img src="screenshots/2.jpg" width="250"/> <img src="screenshots/3.jpg" width="250"/>
