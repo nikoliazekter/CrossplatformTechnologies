@@ -268,30 +268,6 @@ All rights reserved ©''';
         return MixColumnsEncrypter();
     }
   }
-
-  Uint8List _encryptBytes(Uint8List bytes) {
-    Encrypter encrypter;
-    switch (_encryptionAlgorithm) {
-      case 'ShiftRows':
-        {
-          encrypter = ShiftRowsEncrypter();
-        }
-        break;
-
-      case 'SubBytes':
-        {
-          encrypter = SubBytesEncrypter();
-        }
-        break;
-
-      case 'MixColumns':
-        {
-          encrypter = MixColumnsEncrypter();
-        }
-        break;
-    }
-    return encrypter.encrypt(bytes);
-  }
 }
 
 class ResultsScreen extends StatelessWidget {
